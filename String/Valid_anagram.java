@@ -1,3 +1,11 @@
+/*
+Problem: Valid Anagram
+Platform: LeetCode 242 / NeetCode Arrays & Hashing
+Difficulty: Easy
+
+Time Complexity: O(n)
+Space Complexity: O(k)
+*/
 class Solution {
     public boolean isAnagram(String s, String t) {
         HashMap<Character,Integer>set=new HashMap<>();
